@@ -27,8 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
-# Application definition
+# Application definition and change in task 5
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'msgboard.apps.MsgboardConfig',
 ]
 
 MIDDLEWARE = [
